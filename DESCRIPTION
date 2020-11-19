@@ -5,5 +5,6 @@ Version: 1.0
 Date: 2020-11-18
 Author: jorgedelpozolerida (inherited from Jose and Lucia)
 Maintainer: Jorge <jorgedelpozolerida@gmail.com>
-Description:  This is a demo package for RCA team
+Description: This is a demo package for RCA team
 License: 
+RoxygenNote: 7.1.1

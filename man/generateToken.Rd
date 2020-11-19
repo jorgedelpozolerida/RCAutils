@@ -6,8 +6,8 @@
 \usage{
 generateToken(
   endpoint = "https://in2data.qiagen.com/in2data/backend/api/",
-  user = "api.merida",
-  pass = "Api.2019.a6289577-20b9-4150-a488-fbe95e8346ad"
+  user = "api.delpozo",
+  pass = "Api.2019.a20d487a-e05a-4499-b98e-705bf0144124"
 )
 }
 \description{

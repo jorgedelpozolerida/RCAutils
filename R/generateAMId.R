@@ -4,9 +4,6 @@
 #'
 #' @import httr
 #' @import dplyr
-# By UÍA & OE on 13/05/2020
-#
-
 #' @export
 generateAMId <- function(am,
                          in2data.url =

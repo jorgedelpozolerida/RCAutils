@@ -12,7 +12,6 @@
 #' @param calibration: calibration csv
 #' @param config: config xml
 #' @param barcode: carcode txt
-#' @ignoreISflag: should IS be checked?
 #'
 #' @import dplyr
 #' @import purrr
@@ -21,8 +20,6 @@
 #' @import reshape2
 #' 
 #' @name RCA_load_test
-# By UIA & OE on 16/03/2020
-
 #' @export
 
 RCA_load_test <- function(testID,

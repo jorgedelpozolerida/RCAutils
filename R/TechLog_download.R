@@ -8,8 +8,6 @@
 #' @import httr
 #' @import dplyr
 #' 
-# By UÍA & OE on 23/04/2020
-
 #' @export
 TechLog_download <- function(cartridges,
                              in2data.url =
