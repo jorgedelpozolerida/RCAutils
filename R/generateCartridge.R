@@ -73,8 +73,8 @@ generateCartridge <- function(list,
                                        fromTime, '"',
                                        '},"operation":"EQ"}',
                                        '}}'))
-    print(body)
-    print(results.page$status_code)
+    # print(body)
+    # print(results.page$status_code)
     Token <- unname(results.page$request$headers["Authorization"])
     
     calls_remaining <- as.numeric(results.page$headers$`x-rate-limit-remaining`) + 1
@@ -146,7 +146,7 @@ generateCartridge <- function(list,
              contains("ct"), contains("ep"), contains("label"),
              everything())
 
-
+    tests <- bind_rows(tests, test.page)
     print(paste0('Page ', 1 + page, ' out of ', n_pages + 1))
   }
 
