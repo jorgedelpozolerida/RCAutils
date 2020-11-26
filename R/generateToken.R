@@ -4,7 +4,7 @@
 #'
 # By Lucía & José on 26/02/2020
 
-
+#' @export
 generateToken <- function(endpoint =
                             'https://in2data.qiagen.com/in2data/backend/api/',
                           user = "api.delpozo",
